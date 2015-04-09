@@ -1,0 +1,232 @@
+@charset "utf-8";
+.concept {
+  position: relative;
+}
+.concept .box {
+  padding: 80px 0 20px !important;
+}
+.concept .box2 {
+  background: #f7f7ef;
+}
+.concept .box .inn {
+  margin: 0 auto;
+  width: 1010px;
+}
+.concept .box2 .inn{
+  margin: 0 auto;
+  width: 1010px;
+}
+.concept .box-line-bottom {
+  border-bottom: 1px solid #333;
+}
+.concept .box-line-top {
+  border-top: 1px solid #333;
+}
+.concept .img-right {
+  float: right;
+  margin: 60px 0 60px 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+.concept .img-left {
+  float: left;
+  margin: 60px 30px 60px 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.concept .inn p {
+  font-size: 13px;
+  line-height: 1.7em;
+}
+.concept .inn .title-text {
+  color: #dd0120;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin: 0 0 20px !important;
+}
+.concept .inn .title-text2 {
+  margin: 40px 0 20px !important;
+}
+.concept #b00 {
+  height: 300px;
+  text-align: center;
+  /*background: url(../img/h2.png) no-repeat 50%;*/
+}
+.concept #b00 h2 {
+  font-size: 60px;
+  font-family: 微软雅黑, 黑体, 宋体, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.concept #b00 h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.concept #b00 h4 {
+  margin-bottom: 20px;
+  font: medium/1.4 '微软雅黑','黑体','宋体',sans-serif;
+  color: #ca5062;
+  font-size: 282%;
+}
+.concept #b00 hr {
+  width: 400px;
+  display: inherit;
+  margin: 20px auto;
+}
+.concept #b00 h4 {
+  margin-bottom: 20px;
+  color: #ca5062;
+  font-size: 182%;
+}
+.concept #b01 .img-box {
+  margin: 30px 30px;
+}
+.concept #b02 .img-box {
+  margin: -70px 30px;
+}
+.concept #b02 .text-box {
+  margin: 80px 0 150px;
+}
+.concept #b03 .img-box {
+  margin: -50px 30px;
+}
+.concept #b03 .text-box {
+  margin: 70px 0 80px;
+}
+.concept #b04 .img-box {
+  margin: -10px 30px;
+}
+.concept #b04 .text-box {
+  margin: 40px 0 40px;
+}
+.concept #b06 .img-box {
+  margin: 130px 30px 150px;
+}
+.concept #b06 .text-box {
+  margin: 40px 0 40px;
+}
+.concept #b08 .img-box {
+  margin: -80px 30px;
+}
+.concept #b08 .text-box {
+  margin: 100px 0 180px;
+}
+.concept #b09 .img-box {
+  margin:  10px 30px;
+}
+.concept #b09 .text-box {
+  margin: 100px 0;
+}
+.concept .next-btn {
+  margin: 100px auto 20px;
+  width: 33px;
+}
+.concept .explain-box {
+  background: #fff4da;
+  margin: 20px 0;
+  padding: 20px 30px;
+  width: 500px;
+}
+.concept .explain-box .text1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.concept .explain-box .notice {
+  color: #999;
+  font-size: 11px;
+}
+.concept .explain-box .text2 {
+  font-size: 18px;
+  margin: 30px 0 0;
+}
+.concept .explain-box .text3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.concept .explain-box .text3 span {
+  font-size: 14px;
+}
+.concept .explain-box .text3 .stress {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+}
+.concept .explain-box .text3 .stress-small {
+  color: #ff0000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.concept #b99 .text1 {
+  margin: 40px auto 30px;
+  text-align: center;
+}
+.concept #b99 .dot-line {
+  background: url(../img/dotted.png) repeat-x;
+  height: 1px;
+  width: 100%;
+}
+.concept #b99 .text2 {
+  margin: 20px auto;
+  text-align: center;
+}
+.concept #b99 .btn-area {
+  margin: 0 auto 50px;
+}
+.concept #b99 .btn-area div {
+  float: left;
+}
+.concept #b99 .btn-area .btn-start {
+  margin: 10px 15px 0 0;
+}
+.concept #b99 .btn-area .btn-entry {
+  background: #efefef;
+  padding: 10px;
+}
+
+.concept #b09 {
+	padding-bottom: 150px !important;
+	border-bottom: 1px dotted;
+}
+
+.concept #p01 {
+  margin: 0 0 20px;
+}
+/* mark-navi */
+#mark-navi {
+  font-size: 0;
+  position: fixed;
+  right: 30px;
+  top: 200px;
+  z-index: 100;
+}
+#mark-navi img {
+  cursor: pointer;
+}
+#mark-navi li {
+  background: #eaeaea;
+  margin: 10px 0;
+}
+#mark-navi .active {
+  background: #fe0000;
+}
+#mark-navi a {
+  display: block;
+  height: 14px;
+  width: 14px;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  height: 0;
+  display: block;
+  visibility: hidden;
+}

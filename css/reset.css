@@ -1,0 +1,244 @@
+@charset "utf-8";
+* {
+	zoom: 1;
+}
+ul,
+ol,
+li {
+	zoom: normal;
+}
+/* reset */
+html {
+	color: #000000;
+	background: #ffffff;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,img {
+	border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+caption,th {
+	text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+	line-height:35px;
+}
+q:before,
+q:after{
+	content: '';
+}
+abbr,
+acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: text-top;
+}
+sub {
+	vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+input,
+textarea,
+select {
+	*font-size: 100%;
+}
+legend {
+	color: #000000;
+}
+table {
+	font-size: inherit;
+	font: 100%;
+}
+pre,
+code,
+kbd,
+samp,
+tt {
+	font-family: monospace;
+	*font-size: 108%;
+	line-height: 100%;
+}
+hr{
+	display: none;
+}
+img{
+	border: none;
+}
+a{
+	outline: 0;
+}
+ol, ul{
+	list-style: none;
+}
+/* reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #dd011f;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:none; cursor: pointer; 
+}
+/* common */
+.mt-03 {
+	margin-top: -3px
+}
+.mt01 {
+	margin-top: 1px
+}
+.mt02 {
+	margin-top: 2px
+}
+.mt05 {
+	margin-top: 5px
+}
+.mt10 {
+	margin-top:10px
+}
+.mt15 {
+	margin-top:15px
+}
+.mt20 {
+	margin-top:20px
+}
+.mt25 {
+	margin-top:25px
+}
+.mt30 {
+	margin-top:30px
+}
+.mt35 {
+	margin-top:35px
+}
+.mt40 {
+	margin-top:40px
+}
+.mb05 {
+	margin-bottom: 5px
+}
+.mb10 {
+	margin-bottom: 10px
+}
+.mb15 {
+	margin-bottom: 15px
+}
+.mb20 {
+	margin-bottom: 20px
+}
+.mb25 {
+	margin-bottom: 25px
+}
+.mb30 {
+	margin-bottom: 30px
+}
+.mb35 {
+	margin-bottom: 35px
+}
+.mb40 {
+	margin-bottom: 40px
+}
+.mtl3 {
+	margin: 10px 0 0 3px;
+}
+.mbl10 {
+	margin: 0px 0 10px 10px;
+}
+.mbr10 {
+	margin: 0px 10px 10px 0;
+}
+.mtl15 {
+	margin: 15px 0 15px 25px;
+}
+.w250 {
+	width:250px;
+}
+.w140 {
+	width:140px;
+}
+.w800 {
+	width:800px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.cf:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cf {
+	/*display: inline-table;*/
+	zoom: 1;
+}
+.reader {
+	border-style: none;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	z-index: 100;
+}

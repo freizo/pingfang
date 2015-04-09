@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+/* visual
+***************************************/
+
+#visual {
+  height: 494px;
+  width: 100%;
+}
+
+#kouzaOpen {
+  position: relative;
+  width: 1100px;
+  height: 357px;
+  margin: 0 auto;
+  background: url('../img/top/kouza_open.png') no-repeat;
+  background-position: 37px top;
+}
+
+#kouzaOpen p {
+  position: absolute;
+  bottom: 10px;
+  left: 47px;
+}
+
+/* topics
+***************************************/
+
+#topics {
+  background: url(../img/top/topics-bg.png) no-repeat top center;
+  height: 30px;
+  line-height: 30px;
+}
+
+#topics .inner {
+  background: #E6E4E4;
+  font-size: 13px;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+/* main
+***************************************/
+#main {
+  border-bottom: solid 1px #818087;
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.img-center { text-align: center;}
+
+
+/* common class
+***************************************/
+
+a:hover,
+.hover:hover {
+  opacity: .8;
+  -ms-filter: alpha(opacity=80);
+  filter: alpha(opacity=80);
+}
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+
+/* start
+***************************************/
+
+#start {
+  text-align: center;
+}
+
+#start h2 {
+  height: 400px;
+  text-indent: -9999px;
+  background: url(../img/start/visual.png) no-repeat 50%;
+}
+
+#start #b01 {
+  background-color: #000;
+  height: 400px;
+  line-height: 400px;
+}
+
+#start #b01 img {
+  vertical-align: middle;
+}
+
+#start #b02 {
+  margin-top: 100px;
+}
+
+#start #b02 li {
+  position: relative;
+}
+
+#start #b02 li a{
+  bottom: 0;
+  display: block;
+  left: 50%;
+  height: 40px;
+  margin: 0 0 0 -15px;
+  position: absolute;
+  width: 30px;
+}
+
+#start #b03 {
+  border-bottom: dashed 1px #000;
+  margin: 100px 0 50px;
+  padding: 0 0 30px;
+}
+
+#start #p01 {
+  margin: 0 0 100px;
+}
+

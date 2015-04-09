@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+
+@font-face {
+    font-family: 'ds-digitalnormal';
+    src: url(../fonts/ds-digi-webfont.eot);
+    src: url(../fonts/ds-digi-webfont.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/ds-digi-webfont.woff2) format('woff2'),
+         url(../fonts/ds-digi-webfont.woff) format('woff'),
+         url(../fonts/ds-digi-webfont.ttf) format('truetype'),
+         url(../fonts/ds-digi-webfont.svg#ds-digitalnormal) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#header .countdown {
+	width: 400px;
+	height: 30px;
+	margin-left: 30px;
+}
+
+#header #countdown_dashboard {
+	height: 0;
+}
+
+#header #countdown_dashboard .livetime {
+	margin-left: 30px;
+	margin-top: 5px;
+	color: white;
+	font-size:14px;
+}
+
+#header #countdown_dashboard .livetime .icon-15 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#header .dash {
+	width:65px;
+	height: 40px;
+	/* background: transparent url('../img/dash.png') 0 0 no-repeat; */
+	float: left;
+	margin-right: 6px;
+	position: relative;
+
+}
+
+#header .dash .digit {
+	height: 40px;
+	font-size: 26pt;
+	font-weight: bold;
+	float: left;
+	width: 26px;
+	line-height: 48px;
+	text-align: center;
+	font-family: ds-digitalnormal,Hiragino Sans GB W3, 微软雅黑, Heiti SC Light;
+	color: white;
+	position: relative;
+}
+
+#header .dash .digit_tag {
+	line-height: 36px;
+	color: white;
+	font-size: 26pt;
+}
+
+#header .dash .digit_tag2 {
+	display: block;
+	float: left;
+	width:15px;
+	line-height:53px;
+	color: white;
+	font-size: 12pt;
+}
+
+#header .dash_title {
+	position: absolute;
+	display: block;
+	bottom: 0px;
+	right: 20px;
+	font-size: 12pt;
+	color: white;
+	letter-spacing: 2px;
+}
+
+#header .header-money {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+#top_amount {
+	line-height: 0px;
+}

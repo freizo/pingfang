@@ -1,0 +1,88 @@
+.transfer {
+	clear: both;
+	margin-top: 0px;
+	border-top: none;
+	padding: 10px 20px 20px 20px;
+	width: 982px;
+	margin: auto;
+}
+
+.activity .libor {
+	border-bottom: #b50029 1px dashed;
+}
+
+.activity .libor img {
+	border-radius: 3px;
+}
+
+.activity li {
+	padding: 20px 10px 20px 10px;
+	overflow: hidden;
+	zoom: 1;
+	list-style: none;
+}
+
+.activity	.rig {
+	text-align: left;
+	height: 232px;
+}
+
+.activity .rig h3 {
+	font-size: 24px;
+	padding: 16px 0 3px;
+	text-align: left;
+}
+
+.activity .rig h4 {
+	font-size: 20px;
+	padding: 14px 0 3px;
+	text-align: left;
+}
+
+.activity .rig table {
+	padding: 4px 0;
+	font-size: 14px;
+	font-family: "微软雅黑", "黑体", Arial, Helvetica, sans-serif;
+}
+
+.activity .rig th {
+	background: #f2f2f2;
+	border-bottom: solid 1px #cccccc;
+}
+
+.activity .rig td {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+
+.activity .rig td .content {
+	height: 110px;
+}
+
+.activity	.pr { 
+	float: left;
+}
+
+.activity .affirm {
+	padding: 0px 20px;
+	background: #b50029;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 16px;
+	font-style: normal;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-family: "微软雅黑", "黑体", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+.market {
+	clear: both;
+	margin-top: 0px;
+	border-top: none;
+	padding: 10px 20px 20px 20px;
+	width: 982px;
+	margin: auto;
+}
